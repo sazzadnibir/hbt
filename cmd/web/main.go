@@ -2,14 +2,26 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"net/http"
 
+	"github.com/sazzadnibir/go_modules/pkg/config"
 	"github.com/sazzadnibir/go_modules/pkg/handlers"
+	"github.com/sazzadnibir/go_modules/pkg/render"
 )
 
 const port = ":8080"
 
 func main() {
+	var app config.AppConfig
+
+	tc, err := render.CreateTemplateCache()
+	if err != nil {
+		log.Fatal("Can't create template cache")
+	}
+
+	app.TemplateCache = tc
+
 	http.HandleFunc("/", handlers.Home)
 	http.HandleFunc("/about", handlers.About)
 
