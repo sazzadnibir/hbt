@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/sazzadnibir/go_modules/pkg/config"
-	"github.com/sazzadnibir/go_modules/pkg/models"
-	"github.com/sazzadnibir/go_modules/pkg/render"
+	"github.com/sazzadnibir/bookings/pkg/config"
+	"github.com/sazzadnibir/bookings/pkg/models"
+	"github.com/sazzadnibir/bookings/pkg/render"
 )
 
 var Repo *Repository

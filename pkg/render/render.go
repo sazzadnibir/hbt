@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/sazzadnibir/go_modules/pkg/config"
-	"github.com/sazzadnibir/go_modules/pkg/models"
+	"github.com/sazzadnibir/bookings/pkg/config"
+	"github.com/sazzadnibir/bookings/pkg/models"
 )
 
 var functions = template.FuncMap{}

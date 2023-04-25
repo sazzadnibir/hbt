@@ -1,4 +1,4 @@
-module github.com/sazzadnibir/go_modules
+module github.com/sazzadnibir/bookings
 
 go 1.20
 

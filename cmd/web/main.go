@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/alexedwards/scs/v2"
-	"github.com/sazzadnibir/go_modules/pkg/config"
-	"github.com/sazzadnibir/go_modules/pkg/handlers"
-	"github.com/sazzadnibir/go_modules/pkg/render"
+	"github.com/sazzadnibir/bookings/pkg/config"
+	"github.com/sazzadnibir/bookings/pkg/handlers"
+	"github.com/sazzadnibir/bookings/pkg/render"
 )
 
 const port = ":8080"

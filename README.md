@@ -1,5 +1,5 @@
 
-# HBT 
+# Bookings
 A Hotel Booking Website with GoLang
 
 ## Installation
